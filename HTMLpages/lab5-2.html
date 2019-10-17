@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <style>
+        body{
+            margin: 0;
+        }    
+        li{
+            padding: 0;
+            list-style: none;
+            position: relative;
+            float: left;
+            border-radius: 0 0 5px 5px;
+        }
+        #piano{
+            height: 330px;
+            width: 550px;
+            border-radius: 20px;
+            padding: 50px 50px 0px 50px;
+            margin: 50px auto; 
+            background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/187/vwood.png)
+        }
+        #white{
+            background-color: white;
+            z-index: 1;
+            margin-left: 1px;
+            margin-right: 1px;
+            border-left: 1px solid black;
+            border-bottom: 1px solid black;
+            width: 71px;
+            height: 300px;
+        }
+        #black{
+            margin: 0 -20px 0 -20px;
+            z-index: 2;
+            border: 1px solid black;
+            border-radius: 0 0 3px 3px;
+            background-color: black;
+            width: 40px;
+            height: 150px;
+        }
+        #whiteactive{
+           background: linear-gradient(to bottom, #fff 0% , #e9e9e9 100%) 
+        }
+        #blackactive{
+            background: linear-gradient(to right,#444 0%,#222 100%)
+        }
+        #first-white{
+            border-radius: 0 0 3px 3px;
+        }
+        #last-white{
+            border-radius: 0 0 3px 3px;
+        }
+        
+        
+    
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SahilBaller</title>
+</head>
+
+<body>
+    <header>
+    CSS Piano Keys
+    </header>
+    <ul id="piano">
+    <li id="white" id="first-white"></li>
+    
+    <li id="black"></li>
+    
+    <li id="white"></li>
+    
+    <li id="black"></li>
+    
+    <li id="white"></li>
+    
+    <li id="black"></li>
+        
+    <li id="white"></li>
+        
+    <li id="white"></li>
+    
+    <li id="black"></li>
+        
+    <li id="white"></li>
+     
+     <li id="black"></li>   
+        
+    <li id="white" id="last-white"></li>
+        
+    
+    </ul>
+</body>
+</html>
