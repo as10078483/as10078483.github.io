@@ -1,0 +1,84 @@
+body{
+    overflow: scroll;
+}
+.content-card{
+    width: 300px;
+    height: 300px;
+    margin: 0 5px 5px 5px;
+    float: left;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.55);
+    text-align: center;
+    background-color: gray;
+    position: relative;
+    left: 520px;
+    text-decoration: none;
+    color: white
+}
+.content-card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transform: scale(1.1);   
+    
+    -ms-transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    
+}
+img{
+    background-color: gray;
+    margin-top: 50px;
+   width: 200px;
+    height: 200px;
+    
+}
+.content-text{
+   font-family: 'Staatliches', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+.hello-text{
+    animation-name: move-text;
+    animation-iteration-count: 1;
+    animation-duration: 2s
+    
+}
+.name-text{
+    animation-name: move-text;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.content-wrapper{
+    width: 100%;
+    max-width: 1500px;
+}
+.content-title{
+    font-family: 'Staatliches', cursive;
+    font-size: 30px;
+    color: white;
+    margin-top: 150px;
+    left: 520px;
+    position: relative;
+}
+.content-container{
+    width: 100%;
+    max-width: 1000px;
+    height: 100vh;
+    margin-top: 600px;
+    margin-bottom: 600px;
+}
+@keyframes move-text {
+    0%{
+        transform: translate(-1000%,0);
+    }
+    100%{
+        transform: translate(0%,0);
+    }
+}
+header{
+        font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+}
