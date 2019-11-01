@@ -65,8 +65,8 @@ img{
     width: 100%;
     max-width: 1000px;
     height: 100vh;
-    margin-top: 600px;
-    margin-bottom: 600px;
+    margin-top: 750px;
+    margin-bottom: 750px;
 }
 @keyframes move-text {
     0%{
@@ -81,4 +81,41 @@ header{
     font-size: 40px;
     color: white;
     text-align: left;
+}
+
+
+    .main-nav {
+        background: 0;
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration: none;
+        width: 100%;
+        font-size: 40px;
+        font-family: 'Staatliches', cursive;
+        text-align: center;
+        color: aquamarine;
+    }
+.nav-img{
+    width: 50px;
+    height: 50px;
+    background: 0;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+#html{
+    scroll-behavior: smooth;
+}
+
+#gimp{
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
 }
